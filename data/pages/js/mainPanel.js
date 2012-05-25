@@ -18,12 +18,16 @@ $("#button_toggle")
 
 $("#button_blacklist")
     .button()
-    .click(function(event){
-        self.port.emit("blackPage");
-    });
+    .click(
+		function(event){
+			self.port.emit("blackPage");
+		}
+	);
 
 $("#button_whitelist")
     .button()
-    .click(function(event) {
-        self.port.emit("whitePage");
-    });
+    .click(
+		function(event) {
+			self.port.emit("whitePage");
+		}
+	);
