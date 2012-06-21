@@ -7,3 +7,9 @@ Change Logs:
 		
 	v0.03
 		Fixing the passwords implementation (password is not stored)
+		
+	v0.04
+		Implementing the Blacklist and Whitelist page-mod
+		
+		Known issue:
+			Still error when combined with the bayesFilter, since bayesFilter will be worked first
